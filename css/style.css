@@ -1,3 +1,8 @@
-.text {
-    color: green;
+.header .cities__link{
+  color: #ff0000 ;
 }
+
+.header > .header__navigation{
+  background-color: green;
+}
+
