@@ -140,30 +140,34 @@ background-color: transparent;
 }
 
 .parent-container {
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-justify-self: center;
-align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 20px 30px;
 
-
-margin: 50px 20px;
 }
 
 .div {
+  justify-content: center;
+  align-items: center;
   width: 100px;
   height: 100px;
   padding: 25px;
   font-size: 2rem;
-  margin: 10px;
 }
 
+
+
+
 .div_1 {
- background-color: #f00;
+background-color: #f00;
 }
 
 .div_2 {
-  background-color: #0f0;
+background-color: #0f0;
 }
 
 .div_3 {
